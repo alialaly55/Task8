@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task8</title>
+</head>
+<body>
+    <h2>Information</h2>
+    <form action="a.html" method="post">
+        <label for="Username">Username:</label><br>
+        <input type="text" id="Username" name="Username" required placeholder="usernamer"><br>
+        <hr>
+        <label for="Password">Password:</label><br>
+        <input type="password" id="Password" name="Password" placeholder="enter five numbers" min="5" maxlength="5"><br><br>
+        <hr>
+        <label for="Fname">Fname :</label><br>
+        <input type="text" readonly id="Fname" name="Fname" value="Ali" ><br><br>
+        <hr>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email" required placeholder="email@gmail.com"><br><br>
+        <hr>
+        <h2>Skills</h2>
+        <input type="checkbox" id="option-1" name="option-1" value="Sport">
+        <label for="option-1"> Sport</label><br>
+        <input type="checkbox" id="option-2" name="option-2" value="Drawing">
+        <label for="option-2"> Drawing</label><br>
+        <input type="checkbox" id="option-3" name="option-3" value="Programing">
+        <label for="option-3"> Programming</label><br><br>
+        <hr>
+        <h2>The System type</h2>
+        <input type="radio" id="Windows" name="System" value="Windows">
+        <label for="Windows">Windows</label><br>
+        <input type="radio" id="IOS" name="System" value="IOS">
+        <label for="IOS">IOS</label><br>
+        <input type="radio" id="Linux" name="System" value="Linux">
+        <label for="Linux">Linux</label>
+        <hr>
+        <h2>Different between Checkbox and Radio </h2>
+        <p><ul>
+            <li>checkbox:Checkboxes let a user select zero or more options of a limited number of choices.</li>
+            <li>radio: Radio buttons let a user select only one of a limited number of choices</li>
+        </ul></p>
+        <input type="hidden" id="hidden" name="hidden" value="1996">
+        <hr>
+
+        <input type="submit" value="send">
+</body>
+</html>
